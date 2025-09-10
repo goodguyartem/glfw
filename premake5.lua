@@ -2,6 +2,7 @@ project "glfw"
 	kind "StaticLib"
 	language "C"
 	staticruntime "off"
+	warnings "off"
 	targetdir "bin/%{cfg.buildcfg}/%{cfg.platform}/"
 	objdir "bin/intermediates/%{cfg.buildcfg}/%{cfg.platform}/"
 
